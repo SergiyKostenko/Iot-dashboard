@@ -1,0 +1,37 @@
+[
+	{
+		"display_name": "Dashboard",
+		"route": "/",
+		"icon": "bx bx-category-alt"
+	},
+	{
+		"display_name": "Records",
+		"route": "/records",
+		"icon": "bx bx-table"
+	},
+	{
+		"display_name": "Orcs",
+		"route": "/orcs",
+		"icon": "bx bxs-skull"
+	},
+	{
+		"display_name": "Charts",
+		"route": "/charts",
+		"icon": "bx bx-line-chart"
+	},
+	{
+		"display_name": "Live Camera",
+		"route": "/livecam",
+		"icon": "bx bx-camera-home"
+	},
+	{
+		"display_name": "Debug",
+		"route": "/debug",
+		"icon": "bx bx-bug"
+	},
+	{
+		"display_name": "Settings",
+		"route": "/settings",
+		"icon": "bx bx-cog"
+	}
+]
