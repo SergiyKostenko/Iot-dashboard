@@ -42,8 +42,11 @@
 		}
 	],
 	"navigationFallback": {
-		"rewrite": "/index.html",
-		"exclude": ["/assets/*.{png,jpg,gif}", "/css/*"]
+		"rewrite": "index.html",
+		"exclude": ["/assets/*.{png,jpg,jpeg,gif,bmp}", "/static/css/*"]
+	},
+	"mimeTypes": {
+		".json": "text/json"
 	},
 	"responseOverrides": {
 		"400": {
