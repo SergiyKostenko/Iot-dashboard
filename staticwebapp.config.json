@@ -42,8 +42,8 @@
 		}
 	],
 	"navigationFallback": {
-		"rewrite": "index.html",
-		"exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+		"rewrite": "/index.html",
+		"exclude": ["/assets/*.{png,jpg,gif}", "/css/*"]
 	},
 	"responseOverrides": {
 		"400": {
