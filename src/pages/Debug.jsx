@@ -6,15 +6,15 @@ const Debug = () => {
 			<h2 className='page-header'>Debug</h2>
 
 			<div className='notification-item'>
-				<a href='/.auth/login/github'>Login with Github</a>
+				<a href='/login'>Login with Github</a>
 			</div>
 
 			<div className='notification-item'>
-				<a href='/.auth/login/aad'>Login with MS</a>
+				<a href='/loginms'>Login with MS</a>
 			</div>
 
 			<div className='notification-item'>
-				<a href='/.auth/logout'>Log out</a>
+				<a href='/logout'>Log out</a>
 			</div>
 		</div>
 	);
