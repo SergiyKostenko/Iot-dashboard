@@ -51,10 +51,6 @@
 	"responseOverrides": {
 		"400": {
 			"rewrite": "/invalid-invitation-error.html"
-		},
-		"401": {
-			"redirect": "/login",
-			"statusCode": 302
 		}
 	}
 }
