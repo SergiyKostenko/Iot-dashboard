@@ -4,7 +4,7 @@ const Debug = () => {
 	const [user, setUser] = useState(null);
 
 	useEffect(() => {
-		fetch('/loginstatus')
+		fetch('/.auth/me')
 			.then((response) => response.json())
 			.then((user) => {
 				setUser(user);
