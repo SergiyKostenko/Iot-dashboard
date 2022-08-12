@@ -33,7 +33,7 @@ const Debug = () => {
 
 				<div>
 					User roles:{' '}
-					<ul>
+					<ul style={{ 'list-style-type': 'disc' }}>
 						{user === null
 							? '-'
 							: user.userRoles.map((role) => <li>{role}</li>)}
