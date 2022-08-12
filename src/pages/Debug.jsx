@@ -33,9 +33,11 @@ const Debug = () => {
 
 				<div>
 					User roles:{' '}
-					{user === null
-						? '-'
-						: user.userRoles.map((role) => <span>{role}</span>)}
+					<ul>
+						{user === null
+							? '-'
+							: user.userRoles.map((role) => <li>{role}</li>)}
+					</ul>
 				</div>
 			</div>
 		</div>
