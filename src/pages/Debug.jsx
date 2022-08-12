@@ -29,7 +29,8 @@ const Debug = () => {
 			</div>
 			<div>
 				<span>User principal: {user === null ? '-' : user.userDetails}</span>
-				<span>User principal: {user === null ? '-' : user.userRoles}</span>
+				<br />
+				<span>User roles: {user === null ? '-' : user.userRoles}</span>
 			</div>
 		</div>
 	);
