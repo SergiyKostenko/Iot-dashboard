@@ -37,8 +37,8 @@
 			"statusCode": 404
 		},
 		{
-			"route": "/.auth/me",
-			"rewrite": "/loginstatus"
+			"route": "/loginstatus",
+			"rewrite": "/.auth/me"
 		},
 		{
 			"route": "/logout",
