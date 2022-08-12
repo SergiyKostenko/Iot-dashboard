@@ -28,9 +28,15 @@ const Debug = () => {
 				<a href='/logout'>Log out</a>
 			</div>
 			<div>
-				<span>User principal: {user === null ? '-' : user.userDetails}</span>
+				<div>User principal: {user === null ? '-' : user.userDetails}</div>
 				<br />
-				<span>User roles: {user === null ? '-' : user.userRoles}</span>
+
+				<div>
+					User roles:{' '}
+					{user === null
+						? '-'
+						: user.userRoles.map((role) => <span>{role}</span>)}
+				</div>
 			</div>
 		</div>
 	);
