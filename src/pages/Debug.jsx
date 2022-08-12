@@ -8,6 +8,7 @@ const Debug = () => {
 			.then((response) => response.json())
 			.then((user) => {
 				setUser(user);
+				console.log(user);
 			});
 	}, []);
 
@@ -30,7 +31,6 @@ const Debug = () => {
 				<span>
 					User principal: {user === null ? '-' : user.clientPrincipal}
 				</span>
-				<span>User role: {user === null ? '-' : user.userRoles}</span>
 			</div>
 		</div>
 	);
