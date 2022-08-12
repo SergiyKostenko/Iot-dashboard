@@ -28,9 +28,7 @@ const Debug = () => {
 				<a href='/logout'>Log out</a>
 			</div>
 			<div>
-				<span>
-					User principal: {user === null ? '-' : user.clientPrincipal}
-				</span>
+				<span>User principal: {user === null ? '-' : true}</span>
 			</div>
 		</div>
 	);
