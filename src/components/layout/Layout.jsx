@@ -40,7 +40,7 @@ const Layout = () => {
 	appInsights.loadAppInsights();
 
 	return (
-		<BrowserRouter>
+		<BrowserRouter forceRefresh={true}>
 			<Route
 				render={(props) => (
 					<div className={`layout ${themeReducer.mode} ${themeReducer.color}`}>
